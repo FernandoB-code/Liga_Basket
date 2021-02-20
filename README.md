@@ -8,11 +8,17 @@ jugadores que participan actualmente de la misma.
 De cada equipo se conoce su nombre y un listado de jugadores.
 
 Por cada jugador contamos con los siguientes atributos:
+
 ● numero : int (se supone único en cada equipo)
+
 ● apellido: string
+
 ● nombre: string
+
 ● posicion: Posicion (valores posibles: BASE, ESCOLTA, ALERO, PIVOT, ALA_PIVOT)
+
 ● valoración : entero (entre 50 y 100)
+
 
 
 Un equipo nunca puede tener más de 18 jugadores inscriptos en su plantilla.
